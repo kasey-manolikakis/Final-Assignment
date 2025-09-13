@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-FinalAssignment-db02204e-2871-4738-b8d7-a8bf91fbe659</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.9" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9" />
+
+	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Identity\Data\" />
+    <Folder Include="Areas\Identity\Pages\Account\" />
+  </ItemGroup>
+
+</Project>
